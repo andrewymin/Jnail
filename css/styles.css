@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 3.5;
+  font-weight: bold;
+}
+
+hr {
+  border-width: medium;
+  border-color: #D1A8B4;
+}
+
+span {
+  padding-left: 70px;
+}
+
+#title {
+  background-color: #751545;
+  color: #fff;      /*#000 is black*/
+}
+
+.container-fluid {
+  padding: 3% 15% 0;
+  margin-bottom: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+/* interior section */
+
+.carousel-item {
+  padding: 0;
+}
+
+/* announcement section */
+
+#announcement {
+  background-color: #F9F5F0;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.announcement-box {
+  line-height: 2;
+  margin: 0 10%;
+}
+
+.greeting {
+  margin: 0 auto 5%;
+}
+
+/* price section */
+
+#prices {
+  text-align: center;
+  padding: 5%;
+}
+
+.prices-heading {
+  font-family: 'Domine', serif;
+  font-weight: 900;
+}
+
+table {
+  display: inline-block;
+}
+
+td {
+  padding: 7px;
+}
+
+/* location section */
+
+#location {
+  background-color: #751545;
+  color: #fff;
+}
+
+
+.location-container {
+  position: relative;
+padding: 7% 11%;
+}
+
+.local-column {
+  padding: 3% 2%;
+}
+
+.map {
+  padding-right: 5%;
+  position: absolute;
+  width: 100%;
+}
+
+.times {
+  padding-left: 0px;
+}
+
+/* About section */
+
+.about-container {
+  background-color: #F9F5F0;
+  line-height: 2;
+  text-align: justify;
+  padding: 5% 9%;
+}
+
+.about-text {
+  padding: 50px;
+}
+
+.about-heading {
+  margin-bottom: 25px;
+}
+
+.nail-collection {
+  width: 100%;
+}
+
+/* footer section */
+
+#footer {
+  background-color: #fff;
+  padding: 1% 2%;
+  text-align: center;
+}
+
+.yelp-jnails {
+  color: #751545;
+}
+
+.yelp-jnails:hover {
+  color: #D1A8B4;
+}
+
+.copyright {
+  margin: 15px 0;
+}
+
+/* Media section */
+
+@media (max-width: 991px) {
+  .map {
+    position: static;
+  }
+
+
+}
+
+
+
+/* end */
