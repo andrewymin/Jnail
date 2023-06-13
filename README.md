@@ -1,4 +1,3 @@
-# Jnail
 <h1>JNails</h1>
 <p>Nail salon website. Static website that utilizes responsive design with bootstrap.</p>
 <h2>Getting Started</h2>
